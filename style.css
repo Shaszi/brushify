@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Eina regular";
+  src: url("./assets/fonts/Eina01-Regular.ttf") format("woff"),
+    url("./assets/fonts/Eina01-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Eina semibold";
+  src: url("./assets/fonts/Eina01-SemiBold.ttf") format("woff"),
+    url("./assets/fonts/Eina01-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Eina bold";
+  src: url("./assets/fonts/Eina01-Bold.ttf") format("woff"),
+    url("./assets/fonts/Eina01-Bold.ttf") format("truetype");
+}
+
+/* Colors {
+    lightpink: #F4E1F4;
+    pink: #DFA4DD;
+    hardpink: #CF77CC;
+    pinkpurple: #973594;
+    black: #222;
+    white: #eaeaea;
+} */
+
+* {
+  font-family: "Eina regular";
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  background-color: #eaeaea;
+  display: grid;
+  grid-template-columns: 1fr 800px 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 100vw;
+}
+
+#grid-columns {
+  grid-column: 1/-1;
+}
+
+header {
+  grid-column: 2;
+  background-color: #cf77cc;
+  height: 600px;
+}
+
+#wave {
+  grid-column: 1/-1;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
