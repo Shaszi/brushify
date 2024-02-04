@@ -46,7 +46,7 @@ html {
   background-color: #eaeaea;
   display: grid;
   grid-template-columns: 1fr 1080px 1fr;
-  grid-template-rows: 800px auto 1fr 1fr;
+  grid-template-rows: 800px auto 1fr auto;
 }
 
 h1 {
@@ -118,7 +118,7 @@ header {
   font-family: "eina semibold";
   cursor: pointer;
   width: 165px;
-  height: 45px;
+  height: 50px;
   align-items: center;
 }
 
@@ -282,6 +282,12 @@ header {
   width: 80%;
 }
 
+.line-white {
+  border: 0;
+  border-top: 1px solid #eaeaea;
+  width: 100%;
+}
+
 .disabled {
   color: #8c8a8a;
 }
@@ -294,9 +300,101 @@ header {
   color: #222;
   border-radius: 5px;
   width: 345px;
+  margin: 0 1rem;
+  padding: 2rem 0;
 }
 
 .price-box-list {
   display: flex;
   flex-direction: row;
+}
+
+.price-box-list div p,
+.price-box-list div h2,
+.line {
+  margin: 10px 0;
+}
+.pinkAI {
+  font-family: "eina semibold";
+  color: #cf77cc;
+}
+
+#slogan {
+  grid-column: 2/14;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.size-24 {
+  font-family: "eina semibold";
+  font-size: 24px;
+  margin-bottom: 2.5rem;
+}
+
+footer {
+  grid-column: 1/-1;
+  background-color: #222;
+}
+
+.footer-sections {
+  display: flex;
+  flex-direction: row;
+}
+.footer-section {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  margin: 0 15px;
+}
+
+.footer-section p,
+.footer-section a {
+  padding: 10px 0;
+}
+
+.footer-content {
+  grid-column: 2/14;
+  color: #eaeaea;
+}
+
+.footer-title {
+  font-family: "eina semibold";
+  font-size: 28px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row img {
+  height: 16px;
+}
+.padding-8 {
+  padding: 8px !important;
+}
+
+.a-default {
+  color: #eaeaea;
+  text-decoration: none;
+}
+
+.end {
+  grid-column: 2/-2;
+  margin-bottom: 1rem;
+}
+
+.space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mtop-16 {
+  margin-top: 1rem;
 }
