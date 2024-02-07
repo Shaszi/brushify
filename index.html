@@ -9,9 +9,12 @@
   <body>
     <div class="container">
       <header>
-        <div id="logo">
-          <a href="#logo"
-            ><img src="./assets/Logo.svg" alt="logo of the company"
+        <div id="logo-place">
+          <a href=".logo"
+            ><img
+              class="logo"
+              src="./assets/Logo.svg"
+              alt="logo of the company"
           /></a>
         </div>
         <div id="top-buttons">
@@ -44,7 +47,7 @@
       <img id="wave" src="./assets/pink-wave.svg" />
       <main>
         <div class="spacer-120"></div>
-        <div id="section-1">
+        <div class="grid-center" id="section-1">
           <div class="section-title">
             <h2>What does it have?</h2>
             <p>
@@ -81,7 +84,7 @@
           </div>
           <div class="spacer-240"></div>
         </div>
-        <div id="section-2">
+        <div class="grid-center" id="section-2">
           <img
             src="./assets/photos/section1.png"
             alt="image shows AI powered hair brush"
@@ -96,9 +99,13 @@
           </div>
           <div class="section-content"></div>
         </div>
-        <div id="section-3">
+        <div class="grid-center" id="section-3">
           <div class="spacer-240"></div>
-          <div class="section-content">
+          <div class="section-content reverse">
+            <img
+              src="./assets/photos/section2.png"
+              alt="image shows AI powered hair brush"
+            />
             <div class="section-text">
               <h3>Style your hair with ease</h3>
               <p>
@@ -109,14 +116,10 @@
               </p>
               <button class="bt-pink">Buy now</button>
             </div>
-            <img
-              src="./assets/photos/section2.png"
-              alt="image shows AI powered hair brush"
-            />
           </div>
           <div class="spacer-120"></div>
         </div>
-        <div id="price-list">
+        <div class="grid-center" id="price-list">
           <div class="spacer-120"></div>
           <div class="section-title">
             <h2>Get AI Hair Brush today</h2>
@@ -165,14 +168,14 @@
           </div>
           <div class="spacer-120"></div>
         </div>
-        <div id="slogan">
+        <div class="grid-center" id="slogan">
           <div class="spacer-120"></div>
-          <div class="section-text align-center">
+          <div class="section-text flex-col align-center">
             <p class="size-24">
               Your Hair, Our Intelligence - AI-Powered Brush, for Healthy and
               Beautiful Looks!
             </p>
-            <button class="bt-pink">Buy now</button>
+            <button class="bt-pink align-center">Buy now</button>
           </div>
           <div class="spacer-120"></div>
         </div>
@@ -212,7 +215,7 @@
               <p class="footer-title">LINKS</p>
               <a>About Us</a>
               <a>Careers - We're Hiring!</a>
-              <a>aricing</a>
+              <a>Pricing</a>
               <a>Contact Us</a>
             </div>
           </div>
@@ -222,17 +225,17 @@
             <div class="space-between align-center mtop-16">
               <h3 class="semibold">Brushify</h3>
               <div class="icons">
-                <a class="a-default" href="facebook.com"
+                <a target="_blank" class="a-default" href="facebook.com"
                   ><img
                     src="./icons/icon_facebook.svg"
                     alt="Click to go on facebook"
                 /></a>
-                <a class="a-default" href="instagram.com"
+                <a target="_blank" class="a-default" href="instagram.com"
                   ><img
                     src="./icons/icon_instagram.svg"
                     alt="Click to go on instagram"
                 /></a>
-                <a class="a-default" href="x.com"
+                <a target="_blank" class="a-default" href="x.com"
                   ><img
                     src="./icons/icon_twitter.svg"
                     alt="Click to go on twitter"
