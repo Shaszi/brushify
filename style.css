@@ -123,6 +123,7 @@ p {
 #logo-place {
   align-self: center;
   justify-self: center;
+  margin-top: 1rem;
 }
 #brush-img {
   grid-column: 1/-1;
