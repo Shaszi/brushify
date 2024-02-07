@@ -310,6 +310,9 @@ p {
     grid-template-rows: 800px auto 1fr auto;
     padding: 0;
   }
+  .price-box button {
+    margin: 1.5rem 0;
+  }
   .navbar-button,
   .square-element,
   header {
